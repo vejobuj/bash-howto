@@ -1,4 +1,4 @@
-## Disséquer une mauvaise One-Liner ##
+## Disséquer une mauvaise uni-ligne (One-Liner) ##
 
 
 ```$ ls *.zip | while read i; do j=`echo $i | sed 's/.zip//g'`; mkdir $j; cd $j; unzip ../$i; cd ..; done```
